@@ -1,0 +1,74 @@
+<% @title = t(:title_waza) %>
+        
+<!-- PAGEBODY -->
+<section id="page-body">
+
+    <div class="wrapper-small project-space">
+    
+        <h4 class="align-center"><strong><%= t(:waza_title) %></strong></h4>
+        <h6 class="alttitle align-center"><%= t(:waza_note) %></h6>
+        
+        <div class="column-section clearfix">
+            <div class="column one-half">
+                <p><%= t(:waza_text) %></p>
+            </div>
+            <div class="column one-half last-col">
+                <p>
+                    <strong><%= t(:year) %></strong> 2014
+                    <br />
+                    <strong><%= t(:client) %></strong> <%= t(:waza) %>  
+                    <br />
+                    <strong><%= t(:agency) %></strong> <a style="color: black" href="http://www.advisa.fr">Advisa</a> 
+                    <br />
+                    <br />
+                    <a href="http://www.waza-solutions.fr/"><%= t(:view_the_project) %></a>
+                </p>
+            </div>
+        </div>
+                    
+    </div>
+            
+    <div class="wrapper">
+        <div class="project-img">
+            <%= image_tag 'projects/waza-2.jpg', :alt => '' %>
+        </div>
+        <div class="project-img">
+            <%= image_tag 'projects/waza-1.jpg', :alt => '' %>
+        </div>
+        <div class="project-img">
+            <%= image_tag 'projects/waza-4.jpg', :alt => '' %>
+        </div> 
+        <div class="project-img">
+            <%= image_tag 'projects/waza-6.jpg', :alt => '' %>
+        </div>
+        <div class="project-img">
+            <%= image_tag 'projects/waza-5.jpg', :alt => '' %>
+        </div>
+        <div class="project-img">
+            <%= image_tag 'projects/waza-3.jpg', :alt => '' %>
+        </div> 
+    </div> <!-- END .wrapper -->
+            
+    <!-- Single Pagination -->
+    <div class="wrapper">
+        <ul class="single-pagination">
+            <li class="prev">
+                <% link_to '/projects/stumpf.html' do %>
+                    <%= image_tag 'work-3.jpg', :alt => t(:prev) %>
+                    <span><%= t(:previous_project) %></span>
+                <% end %>
+            </li>
+            <li class="backtoworks"><a href="/"><%= link_to t(:back_to_works), '/' %></a></li>
+            <li class="next">
+                <% link_to '/projects/sids67.html' do %>
+                    <%= image_tag 'work-6.jpg', :alt => t(:next) %>
+                    <span><%= t(:next_project) %></span>
+                <% end %>
+            </li>    
+        </ul>
+    </div>
+    <!-- Single Pagination -->       
+    
+    </section>
+<!-- PAGEBODY -->
+    

@@ -1,0 +1,64 @@
+<% @title = t(:title_sids67) %>
+        
+<!-- PAGEBODY -->
+<section id="page-body">
+
+    <div class="wrapper-small project-space">
+    
+        <h4 class="align-center"><strong><%= t(:sids67_title) %></strong></h4>
+        <h6 class="alttitle align-center"><%= t(:sids67_note) %></h6>
+        
+        <div class="column-section clearfix">
+            <div class="column one-half">
+                <p><%= t(:sids67_text) %></p>
+            </div>
+            <div class="column one-half last-col">
+                <p>
+                    <strong><%= t(:year) %></strong> 2014
+                    <br />
+                    <strong><%= t(:client) %></strong> <%= t(:sids67) %> 
+                    <br />
+                    <strong><%= t(:agency) %></strong> <a style="color: black" href="http://www.advisa.fr">Advisa</a> 
+                    <br />
+                    <br />
+                    <a href="http://www.sdis67.com/ecard/2014/"><%= t(:view_the_project) %></a>
+                </p>
+            </div>
+        </div>
+                    
+    </div>
+            
+    <div class="wrapper">
+        <div class="project-img">
+            <%= image_tag 'projects/sids67-1.jpg', :alt => '' %>
+        </div>
+        <div class="project-img">
+            <%= image_tag 'projects/sids67-2.jpg', :alt => '' %>
+        </div>
+        <div class="project-img">
+            <%= image_tag 'projects/sids67-3.jpg', :alt => '' %>
+        </div> 
+    </div> <!-- END .wrapper -->
+            
+    <!-- Single Pagination -->
+    <div class="wrapper">
+        <ul class="single-pagination">
+            <li class="prev">
+                <% link_to '/projects/waza.html' do %>
+                    <%= image_tag 'work-5.jpg', :alt => t(:prev) %>
+                    <span><%= t(:previous_project) %></span>
+                <% end %>
+            </li>
+            <li class="backtoworks"><a href="/"><%= link_to t(:back_to_works), '/' %></a></li>
+            <li class="next">
+                <% link_to '/projects/elephantbleu.html' do %>
+                    <%= image_tag 'work-2.jpg', :alt => t(:next) %>
+                    <span><%= t(:next_project) %></span>
+                <% end %>
+            </li>   
+        </ul>
+    </div>
+    <!-- Single Pagination -->       
+    
+    </section>
+<!-- PAGEBODY -->

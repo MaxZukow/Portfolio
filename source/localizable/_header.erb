@@ -1,0 +1,58 @@
+<% if current_page.url == '/about.html' or current_page.url == '/fr/about.html' %>
+
+<header id="header" class="header-transparent non-fixed header-open ">        
+    <div class="header-inner wrapper clearfix">
+        
+        <div id="logo" class=" left-float">
+            <h3 class="light-logo"><%= t(:max_zhukow) %> <span><%= t(:creative_developer) %></span></h3>
+        </div>
+        
+        <div id="menu" class="right-float clearfix menu-light">
+            <a href="#" class="open-nav"><span class="hamburger"></span><span class="text"><%= t(:menu) %></span></a>
+            <nav id="main-nav" class="nav-light cl-effect-3">
+                <ul>
+                    <li class="<%= is_current_page("/fr/") or is_current_page("/") %>"><%= link_to t(:works), '/' %></li>
+                    <li class="<%= is_current_page("/about.html") %> <%= is_current_page("/fr/about.html") %>"><%= link_to t(:about), '/about.html' %></li>
+                    <% if I18n.locale == :en %>
+                        <li><%= link_to t(:fr), '/fr/' %></li>
+                    <% elsif I18n.locale == :fr %>
+                        <li><a href="/"><%= t(:en) %></a></li>
+                    <% end %>
+                </ul>
+            </nav>
+            
+        </div>
+           
+    </div>
+</header>
+
+<% else %>
+
+<header id="header" class="header-transparent non-fixed header-open ">        
+    <div class="header-inner wrapper clearfix">
+        
+        <div id="logo" class="left-float">
+            <h3><%= t(:max_zhukow) %> <span><%= t(:creative_developer) %></span></h3>
+        </div>
+        
+        <div id="menu" class="right-float clearfix">
+            <a href="#" class="open-nav"><span class="hamburger"></span><span class="text"><%= t(:menu) %></span></a>
+            
+            <nav id="main-nav" class="cl-effect-3">
+                <ul>
+                    <li class="<%= is_current_page("/fr/") or is_current_page("/") %>"><%= link_to t(:works), '/' %></li>
+                    <li class="<%= is_current_page("/about.html") or is_current_page("/fr/about.html") %>"><%= link_to t(:about), '/about.html' %></li>
+                    <% if I18n.locale == :en %>
+                        <li><%= link_to t(:fr), '/fr/' %></li>
+                    <% elsif I18n.locale == :fr %>
+                        <li><a href="/"><%= t(:en) %></a></li>
+                    <% end %>
+                </ul>
+            </nav>
+            
+        </div>
+           
+    </div>
+</header>
+
+<% end %>
