@@ -1,5 +1,5 @@
 /*---------------------------------------------- 
-0. RESET & CLEARFIX
+RESET & CLEARFIX
 ------------------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -35,7 +35,7 @@ audio:not([controls]) { display: none; }
 
 
 /*---------------------------------------------- 
-1. BASICS
+BASICS
 ------------------------------------------------*/
 html {
 	height: 100%;
@@ -196,7 +196,7 @@ p pre, p code {
 
 
 /*---------------------------------------------- 
-2. GENERAL ELEMENTS
+GENERAL ELEMENTS
 ------------------------------------------------*/
 #page-content {
 	overflow: hidden;
@@ -244,7 +244,7 @@ p pre, p code {
 		
 
 /*---------------------------------------------- 
-3. HEADER
+HEADER
 ------------------------------------------------*/
 header {
 	position: fixed;
@@ -291,12 +291,112 @@ header #logo #dark-logo + #light-logo {
 	
 header #logo img { max-height: 100%; }
 
+/*---------------------------------------------- 
+WORKS
+------------------------------------------------*/
 
+.portfolio-category, .portfolio-name {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translate3d(0,0,0) !important;
+    transform: translate3d(0,0,0) !important;
 
+}
 
+.text-stabilo {
+	color: #64BE60;
+}
+.wolf-caption-link.border-stabilo {
+	border-left: 6px solid #64BE60; 
+	padding: 15px;
+}
+
+.text-elephantbleu {
+	color: #79A0CB;
+}
+.wolf-caption-link.border-elephantbleu {
+	border-right: 6px solid #79A0CB; 
+	padding: 15px;
+}
+
+.text-kolb {
+	color: #33A778;
+}
+.wolf-caption-link.border-kolb {
+	border-left: 6px solid #33A778; 
+	padding: 15px;
+}
+
+.text-stumpf {
+	color: #905E37;
+}
+.wolf-caption-link.border-stumpf {
+	border-right: 6px solid #905E37; 
+	padding: 15px;
+}
+
+.text-waza {
+	color:  #555555;
+}
+.wolf-caption-link.border-waza {
+	border-left: 6px solid  #555555; 
+	padding: 15px;
+}
+
+.text-sids {
+	color: #C81D1B;
+}
+.wolf-caption-link.border-sids {
+	border-right: 6px solid #C81D1B; 
+	padding: 15px;
+}
 
 /*---------------------------------------------- 
-4. PAGELOADER
+ABOUT
+------------------------------------------------*/
+
+#page-about {
+    background: black;
+    height:100vh;
+    background: url('../images/about.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#page-about-title {
+    padding-top: 14%;
+}
+#page-about-title p {
+    color: #fff;
+    font-size: 26px !important;
+    line-height: 30px !important;
+    letter-spacing: -0.01em !important;
+    font-weight: 300 !important;
+    font-family: Lato;
+    max-width: 487px;
+    text-align: left;
+    margin: 0px auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#page-about-title p strong {
+    letter-spacing: 0.2em;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 9px;
+    line-height: 0px;
+}
+#page-about-title p span {
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    font-weight: 200;
+    line-height: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+/*---------------------------------------------- 
+PAGELOADER
 ------------------------------------------------*/
 .pace {
 	-webkit-pointer-events: none;
@@ -343,7 +443,7 @@ body:not(.pace-done) > :not(.pace),body:not(.pace-done):before,body:not(.pace-do
 
 
 /*---------------------------------------------- 
-5. MENU / NAV
+MENU / NAV
 ------------------------------------------------*/
 #menu {
 	position: relative;
@@ -415,8 +515,8 @@ body:not(.pace-done) > :not(.pace),body:not(.pace-done):before,body:not(.pace-do
 	width: 65px;
 	text-align: right;
 	display: inline-block;
-	font-family: 'Maven Pro';
-	font-weight: 700;
+	font-family: 'Montserrat';
+	font-weight: 400;
 	font-size: 14px;
 	line-height: 30px;										
 	text-transform: uppercase;
@@ -463,6 +563,7 @@ header.nav-is-open #menu .open-nav .text {
 nav#main-nav {
 	float: left;
 	visibility: hidden;
+	overflow:hidden !important;
 	}
 	header.nav-is-open #menu nav#main-nav { visibility: visible; }
 	
@@ -495,8 +596,8 @@ nav#main-nav ul > li {
 	
 nav#main-nav ul li > a {
 	display: inline-block;
-	font-family: 'Maven Pro';
-	font-weight: 700;
+	font-family: 'Montserrat';
+	font-weight: 400;
 	font-size: 14px;
 	line-height: 30px;										
 	text-transform: uppercase;
@@ -513,7 +614,7 @@ header.header-open nav#main-nav ul > li { transition: none; top: 0px; opacity: 1
 
 
 /*---------------------------------------------- 
-6. FOOTER
+FOOTER
 ------------------------------------------------*/
 footer {
 	width: 100%;
@@ -523,67 +624,9 @@ footer {
 	line-height: 23px;
 	}
 
-/*---------------------------------------------- 
-7. HERO / PAGETITLE
-------------------------------------------------*/
-#hero {
-	position: relative;
-	overflow: hidden;
-	}
-
-/* hero slider */	
-#hero .hero-slider {
-	position: relative;
-	}
-	
-#hero .hero-slider .slider-item {
-	height: 100vh;
-	position:relative;
-	background-position: center center;
-	background-size: cover;
-	}
-	
-#hero.hero-big .hero-slider .slider-item { height: 600px; max-height: 90vh; }
-#hero.hero-half .hero-slider .slider-item { height: 400px; max-height: 60vh; }
-
-/* hero pagetitle */
-#hero .page-title {
-	padding-top: 200px;
-	padding-bottom: 120px;
-	position: relative;
-	text-align: center;
-	}
-	#hero .page-title:not(.wrapper) { width: calc(100% - 80px); padding-left: 40px; padding-right: 40px; }
-	
-#hero.hero-full { height: 100vh; }
-#hero.hero-big { height: 600px; max-height: 90vh;}
-#hero.hero-half { height: 400px; max-height: 60vh; }
-	
-#hero.hero-full .page-title, #hero.hero-big .page-title, #hero.hero-half .page-title {
-	padding: 0; 
-	position: absolute;
-	top: 50%;
-	left: 40px;
-	-webkit-transform: translateY(-50%); 
-	-moz-transform: translateY(-50%); 
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);  
-	transform: translateY(-50%);	
-	}
-
-#hero .page-title.hleft { text-align: left; }
-#hero.hero-full .page-title.hright, #hero.hero-big .page-title.hright, #hero.hero-half .page-title.hright { text-align: right; left: auto; right: 40px; }
-#hero.hero-full .page-title.vbottom, #hero.hero-big .page-title.vbottom, #hero.hero-half .page-title.vbottom
-{ top: auto; bottom: 60px; -webkit-transform: none;-moz-transform: none;-ms-transform: none;-o-transform: none; transform: none; }
-#hero.hero-full .page-title.vtop, #hero.hero-big .page-title.vtop, #hero.hero-half .page-title.vtop
-{ bottom: auto; top: 60px; -webkit-transform: none;-moz-transform: none;-ms-transform: none;-o-transform: none; transform: none; }
-
-/* if wolf item in page-title */
-#hero .page-title .wolf-item  { margin-bottom: 0px; }
-
 	
 /*---------------------------------------------- 
-8. PORTFOLIO
+PORTFOLIO
 ------------------------------------------------*/
 
 /* portfolio wolf items hover effect */
@@ -620,7 +663,7 @@ footer {
 
 
 /*---------------------------------------------- 
-13. PAGINATION
+PAGINATION
 ------------------------------------------------*/
 .single-pagination {
 	list-style: none;
@@ -649,8 +692,8 @@ footer {
 	}
 	
 .single-pagination li a { 
-	font-family: 'Maven Pro';
-	font-weight: 700;
+	font-family: 'Montserrat';
+	font-weight: 400;
 	font-size: 13px;
 	line-height: 20px;
 	display: inline-block;
@@ -707,7 +750,7 @@ footer {
 	
 
 /*---------------------------------------------- 
-14. COLUMNS GRID
+COLUMNS GRID
 ------------------------------------------------*/
 .column-section { margin-top: 60px; }
 div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
@@ -745,3 +788,104 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 
 .last-col { margin-right: 0px !important; }
 	
+/*---------------------------------------------- 
+CUSTOM HEADER
+------------------------------------------------*/
+#header {
+    margin: 0px auto;
+}
+
+#logo h3 {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 28px;
+    color: #333333;
+    text-transform: none;
+    letter-spacing: -0.6px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#logo h3 span {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: -0.4px;
+    padding-left: 5px;
+}
+
+.light-logo, .light-logo span {
+    color: #fff !important;
+}
+
+.nav-hover-effect a {
+    padding: 0px 0;
+}
+
+.nav-hover-effect a::after {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(0,0,0,0.25);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+.nav-hover-effect a:hover::after,
+.nav-hover-effect a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+nav#main-nav ul li > a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    letter-spacing: -0.1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav#main-nav ul li > a:hover,
+nav#main-nav ul li > a:focus {
+    outline: none;
+}
+
+nav#main-nav ul li > a{
+
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+    text-transform: none;
+}
+
+#menu.menu-light span.text {
+	color: white;
+}
+
+#menu.menu-light span.hamburger, #menu.menu-light span.hamburger::before, #menu.menu-light span.hamburger::after {
+	background-color: white;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+.project-space {
+    margin-bottom: 80px;
+}
+
+.portfolio-wolf-item {
+    margin-bottom: 100px;
+}
+
