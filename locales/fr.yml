@@ -61,14 +61,14 @@ fr:
 
   stabilo_note: "pour un fabricant allemand de stylos et marqueurs"
   elephantbleu_note: "pour le leader de stations de lavage de voitures en France et en Europe"
-  kolb_note: "des jeux ludo-éducatif pour les enfants"
+  kolb_note: "des jeux ludo-éducatives pour les enfants"
   mr_stumpf_note: "pour un coutelier d'art basé en Alsace"
   waza_note: "pour un expert en solution Sage"
   sids67_note: "Conception d'une eCard pour les pompiers locaux"
 
   stabilo_text: "Conception de newsletters pour Stabilo. L'objectif principal était de produire des interfaces colorées et joyeuses pour mettre en avant les nouveaux produits à leurs clients et abonnés. Toutes les illustrations et les photos ont été fournis par le client."
   elephantbleu_text: "Elephant Bleu fabrique et exploite des stations de lavage automobile, il y a  800 centres en Europe et il détient une position de leader en France et en Suisse. J'étais responsable de concevoir une interface responsive qui permet de visualiser et de trouver tous les centres sur une carte."
-  kolb_text: "Pendant mes études, on m'a demandé de développer des jeux ludo-éducatif. Le quiz application Kolb a été developpé avec angularjs et une base de données NoSQL Firebase. L'application Maison Verte a été developpé avec Backbone.js. L'interface a été conçu autour de l'accessibilité."
+  kolb_text: "Pendant mes études, on m'a demandé de développer des jeux ludo-éducatives. Le quiz application Kolb a été developpé avec angularjs et une base de données NoSQL Firebase. L'application Maison Verte a été developpé avec Backbone.js. L'interface a été conçu autour de l'accessibilité."
   mr_stumpf_text: "Conception et développement d'un site Wordpress pour M. Stumpf, qui a une grande passion pour concevoir des couteaux en damas. L'interface utilisateur se focalise sur la présentation de son métier et de ses couteaux."
   waza_text: "Waza est une petite société française de conseil qui est responsable de fournir des services autour de la solution Sage en France et au Canada. L'interface a été pensée pour obtenir plus de prospects pour Waza. J'étais responsable de produire une maquette mobile-first responsive."
   sids67_text: "Pour la fin de l'année de 2014, on m'a demandé de concevoir un e-Card qui permet aux pompiers locaux d'envoyer et recevoir des souhaits de fin d'année. L'interface a été inspirée par l'atmosphère de Noël et la neige."
