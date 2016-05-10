@@ -357,7 +357,7 @@ ABOUT
 
 #page-about {
     background: black;
-    height:100vh;
+    min-height:100vh;
     background: url('../images/about.jpg');
     background-position: 50% 50%;
     background-size: cover;
@@ -393,6 +393,20 @@ ABOUT
     line-height: 20px;
     float: left;
     margin-right: 20px;
+    padding-top: 30px;
+}
+
+.info-link {
+	color: white;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+	text-decoration: none;
+	-webkit-transition: border 0.3s ease-in-out; /* Safari */
+    transition: border 0.3s ease-in-out;
+}
+.info-link:hover {
+	color: white;
+	border-bottom: 0px solid rgba(255,255,255,0);
+	text-decoration: none;
 }
 
 /*---------------------------------------------- 

@@ -4,8 +4,11 @@
     <div id="page-about-title">
         <p>
             <%= t(:about_1) %><br />
-            <%= t(:about_2) %><br />
+            <%= t(:about_2) %>
             <%= t(:about_3) %><br />
+            <% link_to '/images/info.jpg', :class => 'info-link' do %>
+                <%= t(:about_4) %>
+            <% end %>
             <br />
             <span>
             <strong><%= t(:phone) %></strong>

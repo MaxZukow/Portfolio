@@ -14,8 +14,9 @@ en:
   email_data: "&#109;&#97;&#120;&#64;&#122;&#104;&#117;&#107;&#111;&#119;&#46;&#99;&#111;&#109;"
   phone_data: "+33 (0)6 23 18 52 41"
   about_1: "I’m Max Zhukow, a French creative developer, currently based in Strasbourg."
-  about_2: "I immerse myself in each project."
-  about_3: "I have been developing web projets for 12 years. Here is my CV."
+  about_2: "I care about each project."
+  about_3: "I have been developing web projets for 12 years."
+  about_4: "Here is my CV."
   max_zhukow: "Max Zhukow"
   creative_developer: "Creative Developer"
   menu: "Menu"
@@ -59,15 +60,20 @@ en:
   sids67_title: "S.I.D.S 67"
 
   stabilo_note: "for a German maker of pens and markers"
-  elephantbleu_note: "for a German maker of pens and markers"
-  kolb_note: "developing a few simple games for kids"
-  mr_stumpf_note: "Sage specialiste"
-  waza_note: "Sage specialiste"
-  sids67_note: "Developing a event card for local Firefighters"
+  elephantbleu_note: "for the leader of car washes in France and Europe"
+  kolb_note: "developing a few simple educational games for kids"
+  mr_stumpf_note: "for a knife lover"
+  waza_note: "for a Sage solution expert"
+  sids67_note: "event card for local Firefighters"
 
-  stabilo_text: "During my studies I was asked to develop a few games. The Kolb Quiz Application was build with Angular.js and a noSQL database Firebase. The Maison Verte app was build with Backbone.js. The interface was designed to be user friendly."
-  elephantbleu_text: "During my studies I was asked to develop a few games. The Kolb Quiz Application was build with Angular.js and a noSQL database Firebase. The Maison Verte app was build with Backbone.js. The interface was designed to be user friendly."
-  kolb_text: "During my studies I was asked to develop a few games. The Kolb Quiz Application was build with Angular.js and a noSQL database Firebase. The Maison Verte app was build with Backbone.js. The interface was designed to be user friendly."
-  mr_stumpf_text: "During my studies I was asked to develop a few games. The Kolb Quiz Application was build with Angular.js and a noSQL database Firebase. The Maison Verte app was build with Backbone.js. The interface was designed to be user friendly."
-  waza_text: "During my studies I was asked to develop a few games. The Kolb Quiz Application was build with Angular.js and a noSQL database Firebase. The Maison Verte app was build with Backbone.js. The interface was designed to be user friendly."
-  sids67_text: "During my studies I was asked to develop a few games. The Kolb Quiz Application was build with Angular.js and a noSQL database Firebase. The Maison Verte app was build with Backbone.js. The interface was designed to be user friendly."
+  stabilo_text: "Designed a few newsletters for Stabilo. The main goal was to produce colorful and joyful layouts which promote their new products to their clients and subscribers. All illustrations and photos material were provided by the client Stabilo."
+
+  elephantbleu_text: "Elephant Bleu manufactures and operates car washes, ther are 800 centers in Europe and has a leading position in France and Switzerland. I was in responsible to design a responsive interface which allows to view and find all centers on a map."
+
+  kolb_text: "During my studies I was asked to develop a few games. The Kolb Quiz Application was built with Angular.js and a noSQL database Firebase. The Maison Verte app was built with Backbone.js. The interface was designed to be user friendly."
+
+  mr_stumpf_text: "Designed and coded an Wordpress website for Mr. Stumpf, which has a passion to build authentic knives. The user interface is focused on presenting his craft and knives with gentle animations."
+
+  waza_text: "Waza is a small French consultancy company which spotlight is to provide services around the Sage solution in France and Canada. The design is light, spaced and focused to get leads. I was responsible to produce a mobile first responsive layout."
+
+  sids67_text: "For the Christmas 2014 I was asked to design a small event website which allows local Firefighters send and receive greetings messages. The layout was inspired by Christmas atmosphere and snow."
